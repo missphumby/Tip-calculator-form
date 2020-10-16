@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    color: black;
+}
+#tipcalc{
+    border: 1px solid black;
+    border-radius: 8px;
+    min-height: 500px;
+    width: 60%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.showItem{
+    display: block;   
+}
+
+.card {
+  border: none !important;
+  border-radius: 0.5rem !important;
+}
+
+.bill-icon,
+.user-icon {
+  background: var(--darkBlue) !important;
+  color: var(--mainWhite);
+}
+.submitBtn {
+  background: var(--darkBlue);
+  font-size: 1.2rem;
+  color: var(--mainWhite);
+}
+
+.submit {
+  background: var(--lightBlue);
+  color: var(--mainDark);
+}
+.loader {
+  display: none;
+}
+/* .message{
+  background-color: pink;
+  display: none;
+} */
+
+/* @keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+} */
